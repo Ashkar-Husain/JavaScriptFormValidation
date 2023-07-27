@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: tahoma;
+}
+.container{
+    width: 100%;
+    /* max-width: 500px; */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+#createAccountForm{
+    background-color: #fff;
+    width: 400px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.6);
+}
+.inputGroup{
+    margin-bottom: 5px;
+    position: relative;
+}
+.inputGroup label{
+    display: block;
+    margin-bottom: 2px;
+    color: rgb(179, 151, 113);
+}
+.inputGroup input{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    padding-left: 6px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #ccc;
+}
+.success input{
+    border: 3px solid green;
+}
+.error input{
+    border: 3px solid red;
+}
+.inputGroup i{
+    position: absolute;
+    right: 10px;
+    bottom: 24px;
+    font-size: larger;
+    visibility: hidden;
+}
+.success i.fa-circle-check{
+    visibility: visible;
+    color: green;
+}
+.error i.fa-circle-exclamation{
+    visibility: visible;
+    color: red;
+}
+.inputGroup p{
+    font-size: 12px;
+    margin-top: 2px;
+    color: red;
+    visibility: hidden;
+}
+.error p{
+    visibility: visible;
+}
+button{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(179, 151, 113);
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}

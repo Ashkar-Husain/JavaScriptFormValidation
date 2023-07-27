@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+    <form id="createAccountForm" autocomplete="off">
+      <div class="inputGroup">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Name" />
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- end inputGroup -->
+      <div class="inputGroup">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Email" />
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- end inputGroup -->
+      <div class="inputGroup">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Password" />
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- end inputGroup -->
+      <div class="inputGroup">
+        <label for="cPassword">Confirm Password</label>
+        <input type="password" id="cPassword" placeholder="Confirm Password" />
+        <i class="fa-solid fa-circle-check"></i>
+        <i class="fa-solid fa-circle-exclamation"></i>
+        <p>Error Message</p>
+      </div>
+      <!-- end inputGroup -->
+      <button type="submit">Submit</button>
+    </form>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>
